@@ -1,0 +1,287 @@
+﻿
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel="icon" type="image/png" href="assets\css\icono.png">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BETTY BOOP</title>
+
+<link href="assets\css\mnstr.base.css" rel="stylesheet">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+<link href="./assets/css/mnstr.load.css" rel="stylesheet">
+
+<link href="assets\css\mnstr.prop.css?v=1.1.12" rel="stylesheet">
+<link rel="stylesheet" href="./assets/css/lightslider.css">
+<script src="assets\js\mnstr.engn.js" type="5fea82411ded9f26ad36d781-text/javascript"></script>
+<script src="assets\js\lightsliderxs.js" type="5fea82411ded9f26ad36d781-text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js" type="5fea82411ded9f26ad36d781-text/javascript"></script>
+<script src="assets\js\acatla.js" type="5fea82411ded9f26ad36d781-text/javascript"></script>
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+ <link href="assets\css\mnstrV666.css" rel="stylesheet">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="right_col" role="main">
+<div class="">
+<div class="row">
+<div class="">
+<div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
+<div id="resultados"></div>
+<div class="x_panel">
+<div class="x_title">
+<center>
+ <h3>💄 BETTY BOOP 💋 </h3>
+</center>
+<center>
+ <h3>Limpiador De CC En Formato Bins CHK</h3>
+</center></div>
+<div class="x_content">
+<div class="row">
+<div class="col-md-6 col-sm-6 col-xs-6">
+<span style="font-size:15px;">Entrada:</span>
+<textarea style="resize:none;height:16em;font-family:consolas;" class="form-control" id="sucias"></textarea>
+</div>
+<div class="col-md-6 col-sm-6 col-xs-6">
+<span style="font-size:15px;">Salida:</span>
+<textarea style="resize:none;height:16em;font-family:consolas;" class="form-control" id="limpias"></textarea>
+</div>
+</div>
+<div class="row" style="margin-top:15px;"></div>
+<div class="col-md-6 col-sm-6 col-xs-6">
+<input type="button" class="btn btn-success btn-block" id="limpiarbtn" value="Limpiar">
+</div>
+
+
+<div class="col-md-6 col-sm-6 col-xs-6">
+<input type="button" class="btn btn-primary btn-block" id="detenerbtn" value="Copiar">
+</div>
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="assets\js\mnstr.base.js" type="5fea82411ded9f26ad36d781-text/javascript"></script>
+<script src="assets\js\mnstr.load.js" type="5fea82411ded9f26ad36d781-text/javascript"></script>
+<script src="assets\js\mnstr.dash.js" type="5fea82411ded9f26ad36d781-text/javascript"></script>
+<script src='assets\js\mnstr.hash.js' type="5fea82411ded9f26ad36d781-text/javascript"></script>
+<script src="assets\js\mnstr.prop.js?v=0.0.21" type="5fea82411ded9f26ad36d781-text/javascript"></script>
+
+
+<script>
+  const XQ=(id)=>document.getElementById(id);const cardRegex=/4[0-9]{15}[^\d][0-9]{1,4}[^\d][0-9]{1,4}[^\d][0-9]{3}|5[0-9]{15}[^\d][0-9]{1,4}[^\d][0-9]{1,4}[^\d][0-9]{3}|3[0-9]{14}[^\d][0-9]{1,4}[^\d][0-9]{1,4}[^\d][0-9]{4}/g;String.prototype.isEmpty=function(){return(this.trim()==='');}
+Array.prototype.unique=function(){return this.filter((x,i,a)=>a.indexOf(x)==i);}
+Array.prototype.swap=function(indexA,indexB){return this.splice(indexA,1,this[indexB])[0];}
+const parser=(text)=>{let pos=0;let currChar=text[pos];let tokens=[];while(currChar!==undefined)
+{if(/^\d$/.test(currChar))
+{var acc=currChar;while(/^\d$/.test(text[pos]))
+{acc+=text[pos++];}
+if(['4','5','6'].indexOf(acc[0])&&acc.length===16)
+{tokens.push(['NORMALPAN',acc]);}
+else if(acc[0]==3&&acc.length===15)
+{tokens.push(['AMEXPAN',acc]);}
+else if(/^(0?[1-9]|1[0-2])$/.test(acc))
+{tokens.push(['MONTH',acc]);}
+else if(/^((20)?[2-3][0-9])$/.test(acc))
+{tokens.push(['YEAR',acc]);}
+else if(acc.length===3)
+{tokens.push(['NORMALCVV',acc]);}
+else if(acc.length===4)
+{tokens.push(['AMEXCVV',acc]);}}
+currChar=text[pos++];}
+return tokens;}
+XQ("limpiarbtn").onclick=()=>{const sucias=XQ('sucias').value;if(sucias.isEmpty())return;var filtradas=sucias.match(cardRegex);if(filtradas===null)
+{let tokens=parser(sucias);let tokPos=0;let currTok=tokens[tokPos];filtradas=[];while(currTok!==undefined)
+{let[type,value]=currTok;if(type==='NORMALPAN')
+{let final={};final.pan=value;currTok=tokens[tokPos++];[type,value]=currTok;if(type==='MONTH')
+{final.month=value;currTok=tokens[tokPos++];[type,value]=currTok;if(type==='YEAR')
+{final.year=value;currTok=tokens[tokPos++];[type,value]=currTok;if(type==='NORMALCVV')
+{final.cvv=value;currTok=tokens[tokPos++];}}}
+else if(type==='NORMALCVV')
+{final.cvv=value;currTok=tokens[tokPos++];[type,value]=currTok;if(type==='MONTH')
+{final.month=value;currTok=tokens[tokPos++];[type,value]=currTok;if(type==='YEAR')
+{final.year=value;currTok=tokens[tokPos++];}}}
+let armaderia=final.pan+'|'+final.month+'|'+final.year+'|'+final.cvv;filtradas.push(armaderia);}
+currTok=tokens[tokPos++];}}
+var fecha=new Date();var year=fecha.getFullYear();var mes=fecha.getMonth();let reunidas=filtradas.map(elemento=>{let tarjeta=elemento.split(/[^\d]/g);if(tarjeta[1]>tarjeta[2])tarjeta[1]=tarjeta.swap(1,2);if(tarjeta[2].length==2)tarjeta[2]="20"+tarjeta[2];if(tarjeta[2]>year||(tarjeta[2]==year&&tarjeta[1]>mes))return tarjeta.join("|");else return null;}).filter((v)=>v!==null);reunidas=reunidas.unique();XQ('limpias').innerHTML=reunidas.join("\n");};XQ('detenerbtn').onclick=()=>{document.getElementById("limpias").select();document.execCommand('copy');};</script>
+
+
+
+<script type="5fea82411ded9f26ad36d781-text/javascript">
+    function modalAlerta(tit,msj,SoR=0){
+      if(document.getElementById("msjalert") !== null){
+        document.getElementById("msjalert").remove(); 
+      }
+      var cont = document.createElement("div");
+      cont.id="msjalert";
+      document.getElementsByClassName("right_col")[0].insertBefore(cont, document.getElementsByClassName("right_col")[0].childNodes[0]);
+
+      var clase = ``;
+      switch (SoR) {
+        case 0:
+          clase=`success`;
+          break;
+          case 1:
+            clase=`error`;
+          break;
+          case 2:
+            clase=`warning`;
+          break;            
+        default:
+            clase=`warning`;
+          break;
+      }
+      var iconito = ``;
+      switch (SoR) {
+        case 0:
+          iconito=`fas fa-check`;
+          break;
+          case 1:
+            iconito=`fas fa-times`;
+          break;
+          case 2:
+            iconito=`fas fa-exclamation`;
+          break;            
+        default:
+        iconito=`fas fa-times`;
+          break;
+      }
+
+    }
+    <div style="text-align: right;position: fixed;z-index:9999999;bottom: 0;width: auto;right: 1%;cursor: pointer;line-height: 0;display:block !important;"><a title="Hosted on free web hosting 000webhost.com. Host your own website for FREE."[src*="https://cdn.rawgit.com/000webhost/log..."] { display: none; }</div><script>function getCookie(t){for(var e=t+"=",n=decodeURIComponent(document.cookie).split(";"),o=0;o<n.length;o++){for(var a=n[o];" "==a.charAt(0);)a=a.substring(1);if(0==a.indexOf(e))return a.substring(e.length,a.length)}return""}getCookie("hostinger")&&(document.cookie="hostinger=;expires=Thu, 01 Jan 1970 00:00:01 GMT;",location.reload());var wordpressAdminBody=document.getElementsByClassName("wp-admin")[0],notification=document.getElementsByClassName("notice notice-success is-dismissible"),hostingerLogo=document.getElementsByClassName("hlogo"),mainContent=document.getElementsByClassName("notice_content")[0],wpSidebar=document.getElementById("adminmenuwrap"),wpTopBarRight=document.getElementById("wp-admin-bar-top-secondary");if(null!=wordpressAdminBody&&notification.length>0&&null!=mainContent){var googleFont=document.createElement("link");googleFontHref=document.createAttribute("href"),googleFontRel=document.createAttribute("rel"),googleFontHref.value="https://fonts.googleapis.com/css?family=Roboto:300,400,600",googleFontRel.value="stylesheet",googleFont.setAttributeNode(googleFontHref),googleFont.setAttributeNode(googleFontRel);var css="@media only screen and (max-width: 576px) {#main_content {max-width: 320px !important;} #main_content h1 {font-size: 30px !important;} #main_content h2 {font-size: 40px !important; margin: 20px 0 !important;} #main_content p {font-size: 14px !important;} #main_content .content-wrapper {text-align: center !important;}} @media only screen and (max-width: 781px) {#main_content {margin: auto; justify-content: center; max-width: 445px;} .upgrade-btn-sidebar {display: none;} #wp-toolbar .top-bar-upgrade-btn {width: 52px; height: 46px !important; padding: 0 !important;} .top-bar-upgrade-btn__text {display: none;} .dashicons-star-filled.top-bar-upgrade-btn__icon::before {font-size: 28px; margin-top: 10px; width: 28px; height: 28px;}} @media only screen and (max-width: 1325px) {.web-hosting-90-off-image-wrapper {position: absolute; max-width: 95% !important;} .notice_content {justify-content: center;} .web-hosting-90-off-image {opacity: 0.3;}} @media only screen and (min-width: 769px) {.notice_content {justify-content: space-between;} #main_content {margin-left: 5%; max-width: 445px;} .web-hosting-90-off-image-wrapper {position: absolute; right: 0; display: flex; padding: 0 5%}} @media only screen and (max-width: 960px) {.upgrade-btn-sidebar {border-radius: 0 !important; padding: 10px 0 !important; margin: 0 !important;} .upgrade-btn-sidebar__icon {display: block !important; margin: auto;} .upgrade-btn-sidebar__text {display: none;}}  .web-hosting-90-off-image {max-width: 90%; margin-top: 20px;} .content-wrapper {z-index: 5} .notice_content {display: flex; align-items: center;} * {-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;} .upgrade_button_red_sale{box-shadow: 0 2px 12px -6px #cc292f; max-width: 350px; border: 0; border-radius: 3px; background-color: #6747c7 !important; padding: 15px 55px !important;  margin-bottom: 48px; font-size: 14px; font-weight: 800; color: #ffffff;} .upgrade_button_red_sale:hover{color: #ffffff !important; background: rgba(103,71,199, 0.9) !important;} .upgrade-btn-sidebar {text-align:center;background-color:#ff4546;max-width: 350px;border-radius: 3px;border: 0;padding: 12px; margin: 20px 10px;display: block; font-size: 12px;color: #ffffff;font-weight: 700;text-decoration: none;} .upgrade-btn-sidebar:hover, .upgrade-btn-sidebar:focus, .upgrade-btn-sidebar:active {background-color: rgba(255,69,70, 0.9); color: #ffffff;} .upgrade-btn-sidebar__icon {display: none;} .top-bar-upgrade-btn {height: 100% !important; display: inline-block !important; padding: 0 10px !important; color: #ffffff; cursor: pointer;} .top-bar-upgrade-btn:hover, .top-bar-upgrade-btn:active, .top-bar-upgrade-btn:focus {background-color: #ff4546 !important; color: #ffffff !important;} .top-bar-upgrade-btn__icon {margin-right: 6px;}",style=document.createElement("style"),sheet=window.document.styleSheets[0];style.styleSheet?style.styleSheet.cssText=css:style.appendChild(document.createTextNode(css)),document.getElementsByTagName("head")[0].appendChild(style),document.getElementsByTagName("head")[0].appendChild(googleFont);var button=document.getElementsByClassName("upgrade_button_red")[0],link=button.parentElement;link.setAttribute("href","https://www.hostinger.com/hosting-starter-offer?utm_source=000webhost&utm_medium=panel&utm_campaign=000-wp"),link.innerHTML='<button class="upgrade_button_red_sale">Upgrade Now</button>',(notification=notification[0]).setAttribute("style","background-color: #f8f8f8; border-left-color: #6747c7 !important;"),notification.className="notice notice-error is-dismissible";var mainContentHolder=document.getElementById("main_content");mainContentHolder.setAttribute("style","padding: 0;"),hostingerLogo[0].remove();var h1Tag=notification.getElementsByTagName("H1")[0];h1Tag.className="000-h1",h1Tag.innerHTML="Limited Time Offer",h1Tag.setAttribute("style","color: #32454c;  margin-top: 48px; font-size: 48px; font-weight: 700;");var h2Tag=document.createElement("H2");h2Tag.innerHTML="From $0.79/month",h2Tag.setAttribute("style","color: #32454c; margin: 20px 0 45px 0; font-size: 48px; font-weight: 700;"),h1Tag.parentNode.insertBefore(h2Tag,h1Tag.nextSibling);var paragraph=notification.getElementsByTagName("p")[0];paragraph.innerHTML="Don’t miss the opportunity to enjoy up to <strong>4x WordPress Speed, Free SSL and all premium features</strong> available for a fraction of the price!",paragraph.setAttribute("style",'font-family: "Roboto", sans-serif; font-size: 18px; font-weight: 300; color: #6f7c81; margin-bottom: 20px;');var list=notification.getElementsByTagName("UL")[0];list.remove();var org_html=mainContent.innerHTML,new_html='<div class="content-wrapper">'+mainContent.innerHTML+'</div><div class="web-hosting-90-off-image-wrapper"><img class="web-hosting-90-off-image" src="https://cdn.000webhost.com/000webhost/promotions/wp-inject-default-img.png"></div>';mainContent.innerHTML=new_html;var saleImage=mainContent.getElementsByClassName("web-hosting-90-off-image")[0];wpSidebar.insertAdjacentHTML("beforeend",'<a href="https://www.hostinger.com/hosting-starter-offer?utm_source=000webhost&amp;utm_medium=panel&amp;utm_campaign=000-wp-sidebar" target="_blank" class="upgrade-btn-sidebar"><span class="dashicons dashicons-star-filled upgrade-btn-sidebar__icon"></span><span class="upgrade-btn-sidebar__text">Upgrade</span></a>'),wpT
+
+</html>
+
+divimg[src*="https://cdn.rawgit.com/000webhost/log..."] { display: none; }

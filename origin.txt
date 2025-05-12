@@ -1,0 +1,56 @@
+Uri: http://almacenatomo.000webhostapp.com/Limpiador De CCS/index.html
+File Name: C:\Users\access\Pictures\limpiador de cc\almacenatomo.000webhostapp.com\Limpiador De CCS\index.html
+Content Type: text/html
+
+Uri: http://almacenatomo.000webhostapp.com/Limpiador De CCS/assets/css/icono.png
+File Name: C:\Users\access\Pictures\limpiador de cc\almacenatomo.000webhostapp.com\Limpiador De CCS\assets\css\icono.png
+Content Type: image/png
+
+Uri: http://almacenatomo.000webhostapp.com/Limpiador De CCS/assets/css/mnstr.base.css
+File Name: C:\Users\access\Pictures\limpiador de cc\almacenatomo.000webhostapp.com\Limpiador De CCS\assets\css\mnstr.base.css
+Content Type: text/css
+
+Uri: http://almacenatomo.000webhostapp.com/Limpiador De CCS/assets/css/mnstr.prop.css?v=1.1.12
+File Name: C:\Users\access\Pictures\limpiador de cc\almacenatomo.000webhostapp.com\Limpiador De CCS\assets\css\mnstr.prop.css
+Content Type: text/css
+
+Uri: http://almacenatomo.000webhostapp.com/Limpiador De CCS/assets/css/mnstrV666.css
+File Name: C:\Users\access\Pictures\limpiador de cc\almacenatomo.000webhostapp.com\Limpiador De CCS\assets\css\mnstrV666.css
+Content Type: text/css
+
+Uri: http://almacenatomo.000webhostapp.com/Limpiador De CCS/assets/js/mnstr.engn.js
+File Name: C:\Users\access\Pictures\limpiador de cc\almacenatomo.000webhostapp.com\Limpiador De CCS\assets\js\mnstr.engn.js
+Content Type: application/javascript
+
+Uri: http://almacenatomo.000webhostapp.com/Limpiador De CCS/assets/js/lightsliderxs.js
+File Name: C:\Users\access\Pictures\limpiador de cc\almacenatomo.000webhostapp.com\Limpiador De CCS\assets\js\lightsliderxs.js
+Content Type: application/javascript
+
+Uri: http://almacenatomo.000webhostapp.com/Limpiador De CCS/assets/js/acatla.js
+File Name: C:\Users\access\Pictures\limpiador de cc\almacenatomo.000webhostapp.com\Limpiador De CCS\assets\js\acatla.js
+Content Type: application/javascript
+
+Uri: http://almacenatomo.000webhostapp.com/Limpiador De CCS/assets/js/mnstr.base.js
+File Name: C:\Users\access\Pictures\limpiador de cc\almacenatomo.000webhostapp.com\Limpiador De CCS\assets\js\mnstr.base.js
+Content Type: application/javascript
+
+Uri: http://almacenatomo.000webhostapp.com/Limpiador De CCS/assets/js/mnstr.load.js
+File Name: C:\Users\access\Pictures\limpiador de cc\almacenatomo.000webhostapp.com\Limpiador De CCS\assets\js\mnstr.load.js
+Content Type: application/javascript
+
+Uri: http://almacenatomo.000webhostapp.com/Limpiador De CCS/assets/js/mnstr.dash.js
+File Name: C:\Users\access\Pictures\limpiador de cc\almacenatomo.000webhostapp.com\Limpiador De CCS\assets\js\mnstr.dash.js
+Content Type: application/javascript
+
+Uri: http://almacenatomo.000webhostapp.com/Limpiador De CCS/assets/js/mnstr.hash.js
+File Name: C:\Users\access\Pictures\limpiador de cc\almacenatomo.000webhostapp.com\Limpiador De CCS\assets\js\mnstr.hash.js
+Content Type: application/javascript
+
+Uri: http://almacenatomo.000webhostapp.com/Limpiador De CCS/assets/js/mnstr.prop.js?v=0.0.21
+File Name: C:\Users\access\Pictures\limpiador de cc\almacenatomo.000webhostapp.com\Limpiador De CCS\assets\js\mnstr.prop.js
+Content Type: application/javascript
+
+Uri: http://cssdeck.com/uploads/media/items/8/8bcLQqF.png
+File Name: C:\Users\access\Pictures\limpiador de cc\almacenatomo.000webhostapp.com\uploads\media\items\8\8bcLQqF.png
+Content Type: image/png
+
